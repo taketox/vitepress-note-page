@@ -21,7 +21,7 @@
         "knowledge base"
     ],
     "devDependencies": {
-        "vitepress": "^1.3.4"
+        "vitepress": "^1.6.4"
     },
     "license": "ISC"
 }
