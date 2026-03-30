@@ -19,6 +19,25 @@ export default defineConfig({
         nav: [
             //   { text: 'Home', link: '/' },
             {
+                text: 'AI',
+                items: [
+                    {
+                        // 该部分的标题
+                        text: '入门',
+                        items: [
+                            { text: '概念', link: '/ai/basic/index' }
+                        ]
+                    },
+                    {
+                        // 该部分的标题
+                        text: '进阶',
+                        items: [
+                            { text: '基础语法', link: '/ai/springai/index' }
+                        ]
+                    }
+                ]
+            },
+            {
                 text: 'Java',
                 items: [
                     {
