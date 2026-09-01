@@ -6,11 +6,13 @@ next: false
 
 # 异步编程
 
-## 目录
+<div class="chapter-list" markdown="1">
 
-1. [异步编程](/page/async/code)
-2. [异步与回调](/page/async/async)
-3. [Promise](/page/async/promise)
-4. [实现PromiseA+规范](/page/async/promisea)
-5. [Generator](/page/async/generator)
-6. [async与await](/page/async/asyncandawait)
+1. [异步编程](/page/async/01-code)
+2. [异步与回调](/page/async/02-async)
+3. [Promise](/page/async/03-promise)
+4. [实现PromiseA+规范](/page/async/04-promisea)
+5. [Generator](/page/async/05-generator)
+6. [async与await](/page/async/06-asyncandawait)
+
+</div>

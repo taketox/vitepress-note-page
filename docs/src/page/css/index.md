@@ -4,9 +4,11 @@ prev: false
 next: false
 ---  
 
-# HTML/CSS
+# CSS
 
-## 目录
+<div class="chapter-list" markdown="1">
 
-1. [CSS2](/page/css/css2)
-2. [CSS3](/page/css/css3)
+1. [CSS2](/page/css/01-css2)
+2. [CSS3](/page/css/02-css3)
+
+</div>

@@ -6,7 +6,9 @@ next: false
 
 # Express
 
-## 目录
+<div class="chapter-list" markdown="1">
 
-1. [Express简介](/nodejs/express/introduce)
-2. [快速开始](/nodejs/express/fastuse)
+1. [Express简介](/nodejs/express/01-introduce)
+2. [快速开始](/nodejs/express/02-fastuse)
+
+</div>

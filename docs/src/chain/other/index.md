@@ -6,6 +6,8 @@ next: false
 
 # 其他
 
-## 目录
+<div class="chapter-list" markdown="1">
 
-1. [Hyperledger-Caliper](/chain/other/caliper)
+1. [Hyperledger-Caliper](/chain/other/01-caliper)
+
+</div>

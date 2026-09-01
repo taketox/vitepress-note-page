@@ -104,6 +104,28 @@ export default defineConfig({
                 ]
             },
             {
+                text: 'Nodejs',
+                items: [
+                    {
+                        // 该部分的标题
+                        text: '入门',
+                        items: [
+                            { text: '基础语法', link: '/nodejs/basic/index' },
+                            { text: '模块机制', link: '/nodejs/moudle/index' },
+                            { text: '异步编程', link: '/nodejs/async/index' },
+                            { text: '内存控制', link: '/nodejs/memory/index' }
+                        ]
+                    },
+                    {
+                        // 该部分的标题
+                        text: '进阶',
+                        items: [
+                            { text: 'Express', link: '/nodejs/express/index' }
+                        ]
+                    }
+                ]
+            },
+            {
                 text: 'Page',
                 items: [
                     {
@@ -129,16 +151,6 @@ export default defineConfig({
                         text: 'Vue',
                         items: [
                             { text: 'Vue2', link: '/page/vue2/index' }
-                        ]
-                    },
-                    {
-                        text: 'Nodejs',
-                        items: [
-                            { text: '基础语法', link: '/nodejs/basic/index' },
-                            { text: '模块机制', link: '/nodejs/moudle/index' },
-                            { text: '异步编程', link: '/nodejs/async/index' },
-                            { text: '内存控制', link: '/nodejs/memory/index' },
-                            { text: 'Express', link: '/nodejs/express/index' }
                         ]
                     }
                 ]
@@ -234,7 +246,7 @@ export default defineConfig({
             {
                 text: 'Share',
                 items: [
-                    { text: '网页导航', link: '/share/navigation' },
+                    { text: '网页导航', link: '/share/01-navigation' },
                 ]
             }
         ],
@@ -250,22 +262,22 @@ export default defineConfig({
                     collapsed: true,
 
                     items: [
-                        { text: '简介概览', link: '/java/basic/introduce' },
-                        { text: '数据类型', link: '/java/basic/data' },
-                        { text: 'String', link: '/java/basic/string' },
-                        { text: '运算符', link: '/java/basic/operator' },
-                        { text: '流程控制', link: '/java/basic/controller' },
-                        { text: '面向对象', link: '/java/basic/objectoriented' },
-                        { text: '面向对象特性', link: '/java/basic/objectfeature' },
-                        { text: '关键字', link: '/java/basic/keys' },
-                        { text: 'Object', link: '/java/basic/object' },
-                        { text: '枚举', link: '/java/basic/enumerate' },
-                        { text: '接口', link: '/java/basic/interface' },
-                        { text: '内部类', link: '/java/basic/innerclass' },
-                        { text: '泛型', link: '/java/basic/generics' },
-                        { text: '异常', link: '/java/basic/error' },
-                        { text: '反射', link: '/java/basic/reflection' },
-                        { text: '注解', link: '/java/basic/annotation' }
+                        { text: '简介概览', link: '/java/basic/01-introduce' },
+                        { text: '数据类型', link: '/java/basic/02-data' },
+                        { text: 'String', link: '/java/basic/03-string' },
+                        { text: '运算符', link: '/java/basic/04-operator' },
+                        { text: '流程控制', link: '/java/basic/05-controller' },
+                        { text: '面向对象', link: '/java/basic/06-objectoriented' },
+                        { text: '面向对象特性', link: '/java/basic/07-objectfeature' },
+                        { text: '关键字', link: '/java/basic/08-keys' },
+                        { text: 'Object', link: '/java/basic/09-object' },
+                        { text: '枚举', link: '/java/basic/10-enumerate' },
+                        { text: '接口', link: '/java/basic/11-interface' },
+                        { text: '内部类', link: '/java/basic/12-innerclass' },
+                        { text: '泛型', link: '/java/basic/13-generics' },
+                        { text: '异常', link: '/java/basic/14-error' },
+                        { text: '反射', link: '/java/basic/15-reflection' },
+                        { text: '注解', link: '/java/basic/16-annotation' }
                     ]
                 },
                 {
@@ -273,40 +285,40 @@ export default defineConfig({
                     collapsed: true,
 
                     items: [
-                        { text: '简介概览', link: '/java/container/introduce' },
-                        { text: 'ArrayList', link: '/java/container/arrayList' },
-                        { text: 'LinkedList', link: '/java/container/linkedlist' },
-                        { text: 'HashSet', link: '/java/container/hashset' },
-                        { text: 'LinkedHashSet', link: '/java/container/linkedhashset' },
-                        { text: 'TreeSet', link: '/java/container/treeset' },
-                        { text: 'EnumSet', link: '/java/container/enumset' },
-                        { text: 'HashMap', link: '/java/container/hashmap' },
-                        { text: 'TreeMap', link: '/java/container/treemap' },
-                        { text: 'WeakHashMap', link: '/java/container/weakhashmap' },
-                        { text: 'LinkedHashMap', link: '/java/container/linkedhashmap' },
-                        { text: 'IdentityHashMap', link: '/java/container/identityhashmap' },
-                        { text: 'EnumMap', link: '/java/container/enummap' },
-                        { text: 'PriorityQueue', link: '/java/container/priorityqueue' },
-                        { text: 'ArrayDeque', link: '/java/container/arraydeque' },
-                        { text: 'Vector', link: '/java/container/vector' },
-                        { text: 'Stack', link: '/java/container/stack' },
-                        { text: 'Hashtable', link: '/java/container/hashtable' },
-                        { text: 'CopyOnWriteArrayList', link: '/java/container/copyonwritearraylist' },
-                        { text: 'ConcurrentSkipListMap', link: '/java/container/concurrentskiplistmap' },
-                        { text: 'ConcurrentSkipListSet', link: '/java/container/concurrentskiplistset' },
-                        { text: 'CopyOnWriteArraySet', link: '/java/container/copyonwritearrayset' },
-                        { text: 'LinkedBlockingDeque', link: '/java/container/linkedblockingdeque' },
-                        { text: 'ArrayBlockingQueue', link: '/java/container/arrayblockingqueue' },
-                        { text: 'LinkedBlockingQueue', link: '/java/container/linkedblockingqueue' },
-                        { text: 'SynchronousQueue', link: '/java/container/synchronousqueue' },
-                        { text: 'LinkedTransferQueue', link: '/java/container/linkedtransferqueue' },
-                        { text: 'PriorityBlockingQueue', link: '/java/container/priorityblockingqueue' },
-                        { text: 'DelayQueue', link: '/java/container/delayqueue' },
-                        { text: 'ConcurrentLinkedQueue', link: '/java/container/concurrentlinkedqueue' },
-                        { text: 'Iterator', link: '/java/container/iterator' },
-                        { text: 'Enumeration', link: '/java/container/enumeration' },
-                        { text: 'Fail-fast', link: '/java/container/failfast' },
-                        { text: 'Sort', link: '/java/container/sort' }
+                        { text: '简介概览', link: '/java/container/01-introduce' },
+                        { text: 'ArrayList', link: '/java/container/02-arrayList' },
+                        { text: 'LinkedList', link: '/java/container/03-linkedlist' },
+                        { text: 'HashSet', link: '/java/container/04-hashset' },
+                        { text: 'LinkedHashSet', link: '/java/container/05-linkedhashset' },
+                        { text: 'TreeSet', link: '/java/container/06-treeset' },
+                        { text: 'EnumSet', link: '/java/container/07-enumset' },
+                        { text: 'HashMap', link: '/java/container/08-hashmap' },
+                        { text: 'TreeMap', link: '/java/container/09-treemap' },
+                        { text: 'WeakHashMap', link: '/java/container/10-weakhashmap' },
+                        { text: 'LinkedHashMap', link: '/java/container/11-linkedhashmap' },
+                        { text: 'IdentityHashMap', link: '/java/container/12-identityhashmap' },
+                        { text: 'EnumMap', link: '/java/container/13-enummap' },
+                        { text: 'PriorityQueue', link: '/java/container/14-priorityqueue' },
+                        { text: 'ArrayDeque', link: '/java/container/15-arraydeque' },
+                        { text: 'Vector', link: '/java/container/16-vector' },
+                        { text: 'Stack', link: '/java/container/17-stack' },
+                        { text: 'Hashtable', link: '/java/container/18-hashtable' },
+                        { text: 'CopyOnWriteArrayList', link: '/java/container/19-copyonwritearraylist' },
+                        { text: 'ConcurrentSkipListMap', link: '/java/container/20-concurrentskiplistmap' },
+                        { text: 'ConcurrentSkipListSet', link: '/java/container/21-concurrentskiplistset' },
+                        { text: 'CopyOnWriteArraySet', link: '/java/container/22-copyonwritearrayset' },
+                        { text: 'LinkedBlockingDeque', link: '/java/container/23-linkedblockingdeque' },
+                        { text: 'ArrayBlockingQueue', link: '/java/container/24-arrayblockingqueue' },
+                        { text: 'LinkedBlockingQueue', link: '/java/container/25-linkedblockingqueue' },
+                        { text: 'SynchronousQueue', link: '/java/container/26-synchronousqueue' },
+                        { text: 'LinkedTransferQueue', link: '/java/container/27-linkedtransferqueue' },
+                        { text: 'PriorityBlockingQueue', link: '/java/container/28-priorityblockingqueue' },
+                        { text: 'DelayQueue', link: '/java/container/29-delayqueue' },
+                        { text: 'ConcurrentLinkedQueue', link: '/java/container/30-concurrentlinkedqueue' },
+                        { text: 'Iterator', link: '/java/container/31-iterator' },
+                        { text: 'Enumeration', link: '/java/container/32-enumeration' },
+                        { text: 'Fail-fast', link: '/java/container/33-failfast' },
+                        { text: 'Sort', link: '/java/container/34-sort' }
                     ]
                 },
                 {
@@ -314,33 +326,33 @@ export default defineConfig({
                     collapsed: true,
 
                     items: [
-                        { text: '基础概念', link: '/java/concurrent/basic' },
-                        { text: 'Java线程', link: '/java/concurrent/thread' },
-                        { text: '线程安全', link: '/java/concurrent/secure' },
-                        { text: '线程状态', link: '/java/concurrent/status' },
-                        { text: 'Synchronized', link: '/java/concurrent/synchronized' },
-                        { text: 'ReentrantLock', link: '/java/concurrent/reentrantlock' },
-                        { text: '内存模型', link: '/java/concurrent/memorymodel' },
-                        { text: 'Volatile', link: '/java/concurrent/volatile' },
-                        { text: 'CompareAndSwap', link: '/java/concurrent/cas' },
-                        { text: '并发工具类', link: '/java/concurrent/util' },
-                        { text: 'LongAdder源码', link: '/java/concurrent/longadder' },
-                        { text: 'Unsafe', link: '/java/concurrent/unsafe' },
-                        { text: '不可变设计', link: '/java/concurrent/final' },
-                        { text: 'ThreadLocal', link: '/java/concurrent/threadlocal' },
-                        { text: '阻塞队列', link: '/java/concurrent/queue' },
-                        { text: '非阻塞队列', link: '/java/concurrent/noblocking' },
-                        { text: '线程池使用', link: '/java/concurrent/pool' },
-                        { text: '线程池原理', link: '/java/concurrent/principle' },
-                        { text: '线程池调度', link: '/java/concurrent/scheduled' },
-                        { text: '多线程任务拆分', link: '/java/concurrent/forkjoin' },
-                        { text: 'AQS', link: '/java/concurrent/aqs' },
-                        { text: 'ReentrantLock原理', link: '/java/concurrent/relock' },
-                        { text: 'ReadWrite', link: '/java/concurrent/readwrite' },
-                        { text: 'CountDown', link: '/java/concurrent/countdown' },
-                        { text: 'CyclicBarrier', link: '/java/concurrent/cyclicbarrier' },
-                        { text: 'Semaphore', link: '/java/concurrent/semaphore' },
-                        { text: 'Exchanger', link: '/java/concurrent/exchanger' }
+                        { text: '基础概念', link: '/java/concurrent/01-basic' },
+                        { text: 'Java线程', link: '/java/concurrent/02-thread' },
+                        { text: '线程安全', link: '/java/concurrent/03-secure' },
+                        { text: '线程状态', link: '/java/concurrent/04-status' },
+                        { text: 'Synchronized', link: '/java/concurrent/05-synchronized' },
+                        { text: 'ReentrantLock', link: '/java/concurrent/06-reentrantlock' },
+                        { text: '内存模型', link: '/java/concurrent/07-memorymodel' },
+                        { text: 'Volatile', link: '/java/concurrent/08-volatile' },
+                        { text: 'CompareAndSwap', link: '/java/concurrent/09-cas' },
+                        { text: '并发工具类', link: '/java/concurrent/10-util' },
+                        { text: 'LongAdder源码', link: '/java/concurrent/11-longadder' },
+                        { text: 'Unsafe', link: '/java/concurrent/12-unsafe' },
+                        { text: '不可变设计', link: '/java/concurrent/13-final' },
+                        { text: 'ThreadLocal', link: '/java/concurrent/14-threadlocal' },
+                        { text: '阻塞队列', link: '/java/concurrent/15-queue' },
+                        { text: '非阻塞队列', link: '/java/concurrent/16-noblocking' },
+                        { text: '线程池使用', link: '/java/concurrent/17-pool' },
+                        { text: '线程池原理', link: '/java/concurrent/18-principle' },
+                        { text: '线程池调度', link: '/java/concurrent/19-scheduled' },
+                        { text: '多线程任务拆分', link: '/java/concurrent/20-forkjoin' },
+                        { text: 'AQS', link: '/java/concurrent/21-aqs' },
+                        { text: 'ReentrantLock原理', link: '/java/concurrent/22-relock' },
+                        { text: 'ReadWrite', link: '/java/concurrent/23-readwrite' },
+                        { text: 'CountDown', link: '/java/concurrent/24-countdown' },
+                        { text: 'CyclicBarrier', link: '/java/concurrent/25-cyclicbarrier' },
+                        { text: 'Semaphore', link: '/java/concurrent/26-semaphore' },
+                        { text: 'Exchanger', link: '/java/concurrent/27-exchanger' }
                     ]
                 },
                 {
@@ -348,10 +360,10 @@ export default defineConfig({
                     collapsed: true,
 
                     items: [
-                        { text: '磁盘操作', link: '/java/io/file' },
-                        { text: '字节操作', link: '/java/io/byte' },
-                        { text: '字符操作', link: '/java/io/char' },
-                        { text: '对象操作', link: '/java/io/obj' }
+                        { text: '磁盘操作', link: '/java/io/01-file' },
+                        { text: '字节操作', link: '/java/io/02-byte' },
+                        { text: '字符操作', link: '/java/io/03-char' },
+                        { text: '对象操作', link: '/java/io/04-obj' }
                     ]
                 },
                 {
@@ -364,18 +376,18 @@ export default defineConfig({
                             collapsed: true,
 
                             items: [
-                                { text: '简介概览', link: '/java/spring/spring/introduce' },
-                                { text: '快速开始', link: '/java/spring/spring/faststart' },
-                                { text: '控制反转', link: '/java/spring/spring/ioc' },
-                                { text: 'SpringBean', link: '/java/spring/spring/bean' },
-                                { text: '基于XML管理Bean', link: '/java/spring/spring/xml' },
-                                { text: '基于注解管理Bean', link: '/java/spring/spring/anno' },
-                                { text: 'SpringJDBC', link: '/java/spring/spring/jdbc' },
-                                { text: 'Spring事务', link: '/java/spring/spring/transaction' },
-                                { text: 'SpringResources', link: '/java/spring/spring/resources' },
-                                { text: 'SpringI18n', link: '/java/spring/spring/i18n' },
-                                { text: '参数校验', link: '/java/spring/spring/validator' },
-                                { text: '提前编译', link: '/java/spring/spring/aot' }
+                                { text: '简介概览', link: '/java/spring/spring/01-introduce' },
+                                { text: '快速开始', link: '/java/spring/spring/02-faststart' },
+                                { text: '控制反转', link: '/java/spring/spring/03-ioc' },
+                                { text: 'SpringBean', link: '/java/spring/spring/04-bean' },
+                                { text: '基于XML管理Bean', link: '/java/spring/spring/05-xml' },
+                                { text: '基于注解管理Bean', link: '/java/spring/spring/06-anno' },
+                                { text: 'SpringJDBC', link: '/java/spring/spring/07-jdbc' },
+                                { text: 'Spring事务', link: '/java/spring/spring/08-transaction' },
+                                { text: 'SpringResources', link: '/java/spring/spring/09-resources' },
+                                { text: 'SpringI18n', link: '/java/spring/spring/10-i18n' },
+                                { text: '参数校验', link: '/java/spring/spring/11-validator' },
+                                { text: '提前编译', link: '/java/spring/spring/12-aot' }
                             ]
                         },
                         {
@@ -383,14 +395,14 @@ export default defineConfig({
                             collapsed: true,
 
                             items: [
-                                { text: '简介概览', link: '/java/spring/mvc/introduce' },
-                                { text: '快速开始', link: '/java/spring/mvc/faststart' },
-                                { text: '请求参数', link: '/java/spring/mvc/request' },
-                                { text: '响应数据', link: '/java/spring/mvc/response' },
-                                { text: 'RestFul', link: '/java/spring/mvc/restful' },
-                                { text: '异常处理', link: '/java/spring/mvc/exception' },
-                                { text: '拦截器', link: '/java/spring/mvc/interceptor' },
-                                { text: '参数校验', link: '/java/spring/mvc/validator' }
+                                { text: '简介概览', link: '/java/spring/mvc/01-introduce' },
+                                { text: '快速开始', link: '/java/spring/mvc/02-faststart' },
+                                { text: '请求参数', link: '/java/spring/mvc/03-request' },
+                                { text: '响应数据', link: '/java/spring/mvc/04-response' },
+                                { text: 'RestFul', link: '/java/spring/mvc/05-restful' },
+                                { text: '异常处理', link: '/java/spring/mvc/06-exception' },
+                                { text: '拦截器', link: '/java/spring/mvc/07-interceptor' },
+                                { text: '参数校验', link: '/java/spring/mvc/08-validator' }
                             ]
                         },
                         {
@@ -398,11 +410,11 @@ export default defineConfig({
                             collapsed: true,
 
                             items: [
-                                { text: '简介概览', link: '/java/spring/boot/introduce' },
-                                { text: '快速开始', link: '/java/spring/boot/faststart' },
-                                { text: '配置文件', link: '/java/spring/boot/config' },
-                                { text: '项目构建', link: '/java/spring/boot/build' },
-                                { text: '整合MVC', link: '/java/spring/boot/mvc' }
+                                { text: '简介概览', link: '/java/spring/boot/01-introduce' },
+                                { text: '快速开始', link: '/java/spring/boot/02-faststart' },
+                                { text: '配置文件', link: '/java/spring/boot/03-config' },
+                                { text: '项目构建', link: '/java/spring/boot/04-build' },
+                                { text: '整合MVC', link: '/java/spring/boot/05-mvc' }
                             ]
                         }
                     ]
@@ -412,15 +424,15 @@ export default defineConfig({
                     collapsed: true,
 
                     items: [
-                        { text: '简介概览', link: '/java/cloud/introduce' },
-                        { text: '服务拆分', link: '/java/cloud/split' },
-                        { text: '服务调用', link: '/java/cloud/call' },
-                        { text: '注册中心', link: '/java/cloud/center' },
-                        { text: 'Nacos', link: '/java/cloud/nacos' },
-                        { text: 'OpenFeign', link: '/java/cloud/feign' },
-                        { text: '网关路由', link: '/java/cloud/gateway' },
-                        { text: '服务保护', link: '/java/cloud/security' },
-                        { text: 'Sentinel', link: '/java/cloud/sentinel' }
+                        { text: '简介概览', link: '/java/cloud/01-introduce' },
+                        { text: '服务拆分', link: '/java/cloud/02-split' },
+                        { text: '服务调用', link: '/java/cloud/03-call' },
+                        { text: '注册中心', link: '/java/cloud/04-center' },
+                        { text: 'Nacos', link: '/java/cloud/05-nacos' },
+                        { text: 'OpenFeign', link: '/java/cloud/06-feign' },
+                        { text: '网关路由', link: '/java/cloud/07-gateway' },
+                        { text: '服务保护', link: '/java/cloud/08-security' },
+                        { text: 'Sentinel', link: '/java/cloud/09-sentinel' }
                     ]
                 },
                 {
@@ -428,12 +440,12 @@ export default defineConfig({
                     collapsed: true,
 
                     items: [
-                        { text: '简介概览', link: '/java/log/introduce' },
-                        { text: 'Log4j', link: '/java/log/log4j' },
-                        { text: 'SLF4J', link: '/java/log/slf4j' },
-                        { text: 'Logback', link: '/java/log/logback' },
-                        { text: 'Log4j2', link: '/java/log/log4j2' },
-                        { text: '应用实例', link: '/java/log/demo' }
+                        { text: '简介概览', link: '/java/log/01-introduce' },
+                        { text: 'Log4j', link: '/java/log/02-log4j' },
+                        { text: 'SLF4J', link: '/java/log/03-slf4j' },
+                        { text: 'Logback', link: '/java/log/04-logback' },
+                        { text: 'Log4j2', link: '/java/log/05-log4j2' },
+                        { text: '应用实例', link: '/java/log/06-demo' }
                     ]
                 },
                 {
@@ -446,11 +458,11 @@ export default defineConfig({
                             collapsed: true,
 
                             items: [
-                                { text: '简介概览', link: '/java/permission/apacheshiro/introduce' },
-                                { text: '访问控制', link: '/java/permission/apacheshiro/access' },
-                                { text: '重要的类与方法', link: '/java/permission/apacheshiro/class' },
-                                { text: '过滤器', link: '/java/permission/apacheshiro/filter' },
-                                { text: 'Shiro整合JWT', link: '/java/permission/apacheshiro/jwt' }
+                                { text: '简介概览', link: '/java/permission/apacheshiro/01-introduce' },
+                                { text: '访问控制', link: '/java/permission/apacheshiro/02-access' },
+                                { text: '重要的类与方法', link: '/java/permission/apacheshiro/03-class' },
+                                { text: '过滤器', link: '/java/permission/apacheshiro/04-filter' },
+                                { text: 'Shiro整合JWT', link: '/java/permission/apacheshiro/05-jwt' }
                             ]
                         },
                         {
@@ -458,8 +470,8 @@ export default defineConfig({
                             collapsed: true,
 
                             items: [
-                                { text: '简介概览', link: '/java/permission/springsecurity/introduce' },
-                                { text: '整体架构', link: '/java/permission/springsecurity/architecture' }
+                                { text: '简介概览', link: '/java/permission/springsecurity/01-introduce' },
+                                { text: '整体架构', link: '/java/permission/springsecurity/02-architecture' }
                             ]
                         }
                     ]
@@ -474,11 +486,11 @@ export default defineConfig({
                             collapsed: true,
 
                             items: [
-                                { text: '简介概览', link: '/java/build/maven/introduce' },
-                                { text: '快速开始', link: '/java/build/maven/faststart' },
-                                { text: '依赖管理', link: '/java/build/maven/manage' },
-                                { text: '依赖传递与冲突', link: '/java/build/maven/conflict' },
-                                { text: '工程继承与聚合', link: '/java/build/maven/extend' }
+                                { text: '简介概览', link: '/java/build/maven/01-introduce' },
+                                { text: '快速开始', link: '/java/build/maven/02-faststart' },
+                                { text: '依赖管理', link: '/java/build/maven/03-manage' },
+                                { text: '依赖传递与冲突', link: '/java/build/maven/04-conflict' },
+                                { text: '工程继承与聚合', link: '/java/build/maven/05-extend' }
                             ]
                         },
                         {
@@ -486,16 +498,16 @@ export default defineConfig({
                             collapsed: true,
 
                             items: [
-                                { text: '简介概览', link: '/java/build/gradle/introduce' },
-                                { text: '快速开始', link: '/java/build/gradle/faststart' },
-                                { text: 'GradleWrapper', link: '/java/build/gradle/wrapper' },
-                                { text: 'Groovy', link: '/java/build/gradle/groovy' },
-                                { text: '生命周期', link: '/java/build/gradle/cycle' },
-                                { text: 'Task', link: '/java/build/gradle/task' },
-                                { text: '配置解析', link: '/java/build/gradle/config' },
-                                { text: '文件操作', link: '/java/build/gradle/file' },
-                                { text: 'Dependencies', link: '/java/build/gradle/depend' },
-                                { text: 'Plugin', link: '/java/build/gradle/plugin' }
+                                { text: '简介概览', link: '/java/build/gradle/01-introduce' },
+                                { text: '快速开始', link: '/java/build/gradle/02-faststart' },
+                                { text: 'GradleWrapper', link: '/java/build/gradle/03-wrapper' },
+                                { text: 'Groovy', link: '/java/build/gradle/04-groovy' },
+                                { text: '生命周期', link: '/java/build/gradle/05-cycle' },
+                                { text: 'Task', link: '/java/build/gradle/06-task' },
+                                { text: '配置解析', link: '/java/build/gradle/07-config' },
+                                { text: '文件操作', link: '/java/build/gradle/08-file' },
+                                { text: 'Dependencies', link: '/java/build/gradle/09-depend' },
+                                { text: 'Plugin', link: '/java/build/gradle/10-plugin' }
                             ]
                         },
                     ]
@@ -507,6 +519,20 @@ export default defineConfig({
                     collapsed: true,
 
                     items: [
+                        { text: '必备基础知识', link: '/python/basic/01-必备基础知识' },
+                        { text: '初识Python', link: '/python/basic/02-初识Python' },
+                        { text: 'Python核心基础', link: '/python/basic/03-Python核心基础' },
+                        { text: '流程控制语句', link: '/python/basic/04-流程控制语句' },
+                        { text: '函数入门', link: '/python/basic/05-函数入门' },
+                        { text: '数据容器', link: '/python/basic/06-数据容器' },
+                        { text: '面向对象', link: '/python/basic/07-面向对象' },
+                        { text: '函数进阶', link: '/python/basic/08-函数进阶' },
+                        { text: '错误与异常', link: '/python/basic/09-错误与异常' },
+                        { text: '模块与包', link: '/python/basic/10-模块与包' },
+                        { text: '迭代器vs生成器', link: '/python/basic/11-迭代器vs生成器' },
+                        { text: '文件操作', link: '/python/basic/12-文件操作' },
+                        { text: '进程与线程', link: '/python/basic/13-进程与线程' },
+                        { text: '协程', link: '/python/basic/14-协程' }
                     ]
                 }
             ],
@@ -516,118 +542,18 @@ export default defineConfig({
                     collapsed: true,
 
                     items: [
-                        { text: '简介概览', link: '/go/basic/introduce' },
-                        { text: '语言特性', link: '/go/basic/feature' },
-                        { text: '关键字及标识符', link: '/go/basic/package' },
-                        { text: '包管理工具', link: '/go/basic/operator' },
-                        { text: '基本结构', link: '/go/basic/structure' },
-                        { text: '常量和变量', link: '/go/basic/constandvar' },
-                        { text: '数据类型', link: '/go/basic/type' },
-                        { text: '运算符', link: '/go/basic/operator' },
-                        { text: '控制结构', link: '/go/basic/control' },
-                        { text: '函数', link: '/go/basic/function' },
-                        { text: '闭包', link: '/go/basic/closure' },
-                        { text: '数组', link: '/go/basic/array' }
-                    ]
-                }
-            ],
-            '/page/': [
-                {
-                    text: 'HTML',
-                    collapsed: true,
-
-                    items: [
-                        { text: 'HTML4', link: '/page/html/html4' },
-                        { text: 'HTML5', link: '/page/html/html5' },
-                    ]
-                },
-                {
-                    text: 'CSS',
-                    collapsed: true,
-
-                    items: [
-                        { text: 'CSS2', link: '/page/css/css2' },
-                        { text: 'CSS3', link: '/page/css/css3' }
-                    ]
-                },
-                {
-                    text: '基础语法',
-                    collapsed: true,
-
-                    items: [
-                        { text: '简介概览', link: '/page/basic/introduce' },
-                        { text: '作用域', link: '/page/basic/scpoe' },
-                        { text: '闭包', link: '/page/basic/closure' },
-                        { text: '函数上下文', link: '/page/basic/context' },
-                        { text: '数组', link: '/page/basic/array' },
-                        { text: '对象', link: '/page/basic/object' },
-                        { text: '数据类型', link: '/page/basic/type' },
-                        { text: '原型', link: '/page/basic/prototype' },
-                        { text: 'DOM', link: '/page/basic/dom' },
-                        { text: 'BOM', link: '/page/basic/bom' },
-                        { text: '事件模型', link: '/page/basic/eventmoudle' },
-                        { text: '事件循环', link: '/page/basic/eventloop' }
-                    ]
-                },
-                {
-                    text: '深入理解',
-                    collapsed: true,
-
-                    items: [
-                        { text: '模块化', link: '/page/advance/moudle' },
-                        { text: '代码解析与执行', link: '/page/advance/engine' },
-                        { text: '垃圾回收机制', link: '/page/advance/gc' },
-                        { text: 'WeakMap', link: '/page/advance/weakmap' },
-                        { text: 'WeakSet', link: '/page/advance/weakset' },
-                        { text: 'Class', link: '/page/advance/class' },
-                        { text: '函数式编程', link: '/page/advance/functioncode' },
-                        { text: '迭代器', link: '/page/advance/iterator' },
-                        { text: 'Proxy', link: '/page/advance/proxy' },
-                        { text: '深拷贝与浅拷贝', link: '/page/advance/copy' },
-                        { text: 'Stringify', link: '/page/advance/stringify' },
-                        { text: '网页存储', link: '/page/advance/webstorage' },
-                        { text: '装饰器', link: '/page/advance/decorator' },
-                        { text: '跨页面通信', link: '/page/advance/crosspage' },
-                        { text: 'ShadowDOM', link: '/page/advance/shadow' },
-                        { text: 'Date', link: '/page/advance/data' },
-                        { text: '正则表达式', link: '/page/advance/regexp' },
-                        { text: '异常处理', link: '/page/advance/error' }
-                    ]
-                },
-                {
-                    text: '异步编程',
-                    collapsed: true,
-
-                    items: [
-                        { text: '异步编程', link: '/page/async/code' },
-                        { text: '异步与回调', link: '/page/async/async' },
-                        { text: 'Promise', link: '/page/async/promise' },
-                        { text: '实现PromiseA+规范', link: '/page/async/promisea' },
-                        { text: 'Generator', link: '/page/async/generator' },
-                        { text: 'async与await', link: '/page/async/asyncandawait' }
-                    ]
-                },
-                {
-                    text: '性能调优',
-                    collapsed: true,
-
-                    items: [
-                        { text: 'MutationObserver', link: '/page/perf/mutation' },
-                        { text: 'requestAnimationFrame', link: '/page/perf/request' },
-                        { text: 'Performance API', link: '/page/perf/performance' },
-                        { text: '页面生命周期', link: '/page/perf/load' }
-                    ]
-                },
-                {
-                    text: 'Vue2',
-                    collapsed: true,
-
-                    items: [
-                        { text: 'Vue核心', link: '/page/vue2/vue2' },
-                        { text: '组件化编程', link: '/page/vue2/component' },
-                        { text: 'Ajax', link: '/page/vue2/ajax' },
-                        { text: 'Vuex', link: '/page/vue2/vuex' },
-                        { text: 'Vue-Router', link: '/page/vue2/router' }
+                        { text: '简介概览', link: '/go/basic/01-introduce' },
+                        { text: '语言特性', link: '/go/basic/02-feature' },
+                        { text: '关键字及标识符', link: '/go/basic/03-package' },
+                        { text: '包管理工具', link: '/go/basic/08-operator' },
+                        { text: '基本结构', link: '/go/basic/05-structure' },
+                        { text: '常量和变量', link: '/go/basic/06-constandvar' },
+                        { text: '数据类型', link: '/go/basic/07-type' },
+                        { text: '运算符', link: '/go/basic/08-operator' },
+                        { text: '控制结构', link: '/go/basic/09-control' },
+                        { text: '函数', link: '/go/basic/10-function' },
+                        { text: '闭包', link: '/go/basic/11-closure' },
+                        { text: '数组', link: '/go/basic/12-array' }
                     ]
                 }
             ],
@@ -637,20 +563,20 @@ export default defineConfig({
                     collapsed: true,
 
                     items: [
-                        { text: 'Node简介', link: '/nodejs/basic/introduce' },
-                        { text: 'Node特点', link: '/nodejs/basic/features' },
-                        { text: 'Node模块', link: '/nodejs/basic/moudle' },
-                        { text: 'NPM使用', link: '/nodejs/basic/usenpm' },
-                        { text: 'Path模块', link: '/nodejs/basic/path' },
-                        { text: 'Fs模块', link: '/nodejs/basic/fs' },
-                        { text: 'Stream模块', link: '/nodejs/basic/stream' },
-                        { text: 'Buffer模块', link: '/nodejs/basic/buf' },
-                        { text: 'Buffer探究', link: '/nodejs/basic/buffer' },
-                        { text: 'Event模块', link: '/nodejs/basic/event' },
-                        { text: 'Event源码', link: '/nodejs/basic/source' },
-                        { text: '事件循环', link: '/nodejs/basic/eventloop' },
-                        { text: '进程与线程', link: '/nodejs/basic/process' },
-                        { text: '多进程使用', link: '/nodejs/basic/useprocess' }
+                        { text: 'Node简介', link: '/nodejs/basic/01-introduce' },
+                        { text: 'Node特点', link: '/nodejs/basic/02-features' },
+                        { text: 'Node模块', link: '/nodejs/basic/03-moudle' },
+                        { text: 'NPM使用', link: '/nodejs/basic/04-usenpm' },
+                        { text: 'Path模块', link: '/nodejs/basic/05-path' },
+                        { text: 'Fs模块', link: '/nodejs/basic/06-fs' },
+                        { text: 'Stream模块', link: '/nodejs/basic/07-stream' },
+                        { text: 'Buffer模块', link: '/nodejs/basic/08-buf' },
+                        { text: 'Buffer探究', link: '/nodejs/basic/09-buffer' },
+                        { text: 'Event模块', link: '/nodejs/basic/10-event' },
+                        { text: 'Event源码', link: '/nodejs/basic/11-source' },
+                        { text: '事件循环', link: '/nodejs/basic/12-eventloop' },
+                        { text: '进程与线程', link: '/nodejs/basic/13-process' },
+                        { text: '多进程使用', link: '/nodejs/basic/14-useprocess' }
                     ]
                 },
                 {
@@ -658,13 +584,13 @@ export default defineConfig({
                     collapsed: true,
 
                     items: [
-                        { text: 'CommonJS规范', link: '/nodejs/moudle/commonjs' },
-                        { text: 'Node的模块实现', link: '/nodejs/moudle/nodemoudle' },
-                        { text: '核心模块', link: '/nodejs/moudle/core' },
-                        { text: '扩展模块', link: '/nodejs/moudle/expand' },
-                        { text: '调用模块栈', link: '/nodejs/moudle/stack' },
-                        { text: '包与NPM', link: '/nodejs/moudle/npm' },
-                        { text: '前后端共用模块', link: '/nodejs/moudle/common' }
+                        { text: 'CommonJS规范', link: '/nodejs/moudle/01-commonjs' },
+                        { text: 'Node的模块实现', link: '/nodejs/moudle/02-nodemoudle' },
+                        { text: '核心模块', link: '/nodejs/moudle/03-core' },
+                        { text: '扩展模块', link: '/nodejs/moudle/04-expand' },
+                        { text: '调用模块栈', link: '/nodejs/moudle/05-stack' },
+                        { text: '包与NPM', link: '/nodejs/moudle/06-npm' },
+                        { text: '前后端共用模块', link: '/nodejs/moudle/07-common' }
                     ]
                 },
                 {
@@ -672,13 +598,13 @@ export default defineConfig({
                     collapsed: true,
 
                     items: [
-                        { text: '异步IO与非阻塞IO', link: '/nodejs/async/io' },
-                        { text: 'Node异步IO', link: '/nodejs/async/nodeio' },
-                        { text: '非IO的异步API', link: '/nodejs/async/api' },
-                        { text: '事件驱动与高性能服务器', link: '/nodejs/async/event' },
-                        { text: '函数式编程', link: '/nodejs/async/functional' },
-                        { text: '异步编程的优势与难点', link: '/nodejs/async/advantage' },
-                        { text: '异步编程解决方案', link: '/nodejs/async/solve' }
+                        { text: '异步IO与非阻塞IO', link: '/nodejs/async/01-io' },
+                        { text: 'Node异步IO', link: '/nodejs/async/02-nodeio' },
+                        { text: '非IO的异步API', link: '/nodejs/async/03-api' },
+                        { text: '事件驱动与高性能服务器', link: '/nodejs/async/04-event' },
+                        { text: '函数式编程', link: '/nodejs/async/05-functional' },
+                        { text: '异步编程的优势与难点', link: '/nodejs/async/06-advantage' },
+                        { text: '异步编程解决方案', link: '/nodejs/async/07-solve' }
                     ]
                 },
                 {
@@ -686,12 +612,12 @@ export default defineConfig({
                     collapsed: true,
 
                     items: [
-                        { text: 'V8内存限制', link: '/nodejs/memory/v8' },
-                        { text: 'V8垃圾回收机制', link: '/nodejs/memory/recycle' },
-                        { text: '高效使用内存', link: '/nodejs/memory/use' },
-                        { text: '内存指标', link: '/nodejs/memory/standard' },
-                        { text: '内存泄漏', link: '/nodejs/memory/error' },
-                        { text: '处理大文件', link: '/nodejs/memory/big' }
+                        { text: 'V8内存限制', link: '/nodejs/memory/01-v8' },
+                        { text: 'V8垃圾回收机制', link: '/nodejs/memory/02-recycle' },
+                        { text: '高效使用内存', link: '/nodejs/memory/03-use' },
+                        { text: '内存指标', link: '/nodejs/memory/04-standard' },
+                        { text: '内存泄漏', link: '/nodejs/memory/05-error' },
+                        { text: '处理大文件', link: '/nodejs/memory/06-big' }
                     ]
                 },
                 {
@@ -699,8 +625,108 @@ export default defineConfig({
                     collapsed: true,
 
                     items: [
-                        { text: 'Express简介', link: '/nodejs/express/introduce' },
-                        { text: '快速开始', link: '/nodejs/express/fastuse' }
+                        { text: 'Express简介', link: '/nodejs/express/01-introduce' },
+                        { text: '快速开始', link: '/nodejs/express/02-fastuse' }
+                    ]
+                }
+            ],
+                        '/page/': [
+                {
+                    text: 'HTML',
+                    collapsed: true,
+
+                    items: [
+                        { text: 'HTML4', link: '/page/html/01-html4' },
+                        { text: 'HTML5', link: '/page/html/02-html5' },
+                    ]
+                },
+                {
+                    text: 'CSS',
+                    collapsed: true,
+
+                    items: [
+                        { text: 'CSS2', link: '/page/css/01-css2' },
+                        { text: 'CSS3', link: '/page/css/02-css3' }
+                    ]
+                },
+                {
+                    text: '基础语法',
+                    collapsed: true,
+
+                    items: [
+                        { text: '简介概览', link: '/page/basic/01-introduce' },
+                        { text: '作用域', link: '/page/basic/02-scpoe' },
+                        { text: '闭包', link: '/page/basic/03-closure' },
+                        { text: '函数上下文', link: '/page/basic/04-context' },
+                        { text: '数组', link: '/page/basic/05-array' },
+                        { text: '对象', link: '/page/basic/06-object' },
+                        { text: '数据类型', link: '/page/basic/07-type' },
+                        { text: '原型', link: '/page/basic/08-prototype' },
+                        { text: 'DOM', link: '/page/basic/09-dom' },
+                        { text: 'BOM', link: '/page/basic/10-bom' },
+                        { text: '事件模型', link: '/page/basic/11-eventmoudle' },
+                        { text: '事件循环', link: '/page/basic/12-eventloop' }
+                    ]
+                },
+                {
+                    text: '深入理解',
+                    collapsed: true,
+
+                    items: [
+                        { text: '模块化', link: '/page/advance/01-moudle' },
+                        { text: '代码解析与执行', link: '/page/advance/02-engine' },
+                        { text: '垃圾回收机制', link: '/page/advance/03-gc' },
+                        { text: 'WeakMap', link: '/page/advance/04-weakmap' },
+                        { text: 'WeakSet', link: '/page/advance/05-weakset' },
+                        { text: 'Class', link: '/page/advance/06-class' },
+                        { text: '函数式编程', link: '/page/advance/07-functioncode' },
+                        { text: '迭代器', link: '/page/advance/08-iterator' },
+                        { text: 'Proxy', link: '/page/advance/09-proxy' },
+                        { text: '深拷贝与浅拷贝', link: '/page/advance/10-copy' },
+                        { text: 'Stringify', link: '/page/advance/11-stringify' },
+                        { text: '网页存储', link: '/page/advance/12-webstorage' },
+                        { text: '装饰器', link: '/page/advance/13-decorator' },
+                        { text: '跨页面通信', link: '/page/advance/14-crosspage' },
+                        { text: 'ShadowDOM', link: '/page/advance/15-shadow' },
+                        { text: 'Date', link: '/page/advance/16-data' },
+                        { text: '正则表达式', link: '/page/advance/17-regexp' },
+                        { text: '异常处理', link: '/page/advance/18-error' }
+                    ]
+                },
+                {
+                    text: '异步编程',
+                    collapsed: true,
+
+                    items: [
+                        { text: '异步编程', link: '/page/async/01-code' },
+                        { text: '异步与回调', link: '/page/async/02-async' },
+                        { text: 'Promise', link: '/page/async/03-promise' },
+                        { text: '实现PromiseA+规范', link: '/page/async/04-promisea' },
+                        { text: 'Generator', link: '/page/async/05-generator' },
+                        { text: 'async与await', link: '/page/async/06-asyncandawait' }
+                    ]
+                },
+                {
+                    text: '性能调优',
+                    collapsed: true,
+
+                    items: [
+                        { text: 'MutationObserver', link: '/page/perf/01-mutation' },
+                        { text: 'requestAnimationFrame', link: '/page/perf/02-request' },
+                        { text: 'Performance API', link: '/page/perf/03-performance' },
+                        { text: '页面生命周期', link: '/page/perf/04-load' }
+                    ]
+                },
+                {
+                    text: 'Vue2',
+                    collapsed: true,
+
+                    items: [
+                        { text: 'Vue核心', link: '/page/vue2/01-vue2' },
+                        { text: '组件化编程', link: '/page/vue2/02-component' },
+                        { text: 'Ajax', link: '/page/vue2/03-ajax' },
+                        { text: 'Vuex', link: '/page/vue2/04-vuex' },
+                        { text: 'Vue-Router', link: '/page/vue2/05-router' }
                     ]
                 }
             ],
@@ -710,12 +736,12 @@ export default defineConfig({
                     collapsed: true,
 
                     items: [
-                        { text: '基础命令', link: '/linux/bash/basic' },
-                        { text: '常用命令', link: '/linux/bash/advanced' },
-                        { text: '环境变量', link: '/linux/bash/env' },
-                        { text: '文件权限', link: '/linux/bash/permissions' },
-                        { text: '文件系统', link: '/linux/bash/filesys' },
-                        { text: '路由配置', link: '/linux/bash/route' }
+                        { text: '基础命令', link: '/linux/bash/01-basic' },
+                        { text: '常用命令', link: '/linux/bash/02-advanced' },
+                        { text: '环境变量', link: '/linux/bash/03-env' },
+                        { text: '文件权限', link: '/linux/bash/04-permissions' },
+                        { text: '文件系统', link: '/linux/bash/05-filesys' },
+                        { text: '路由配置', link: '/linux/bash/06-route' }
                     ]
                 },
                 {
@@ -723,18 +749,18 @@ export default defineConfig({
                     collapsed: true,
 
                     items: [
-                        { text: '基础语法', link: '/linux/shell/basic' },
-                        { text: '结构化语法(上)', link: '/linux/shell/structure1' },
-                        { text: '结构化语法(下)', link: '/linux/shell/structure2' },
-                        { text: '输入处理', link: '/linux/shell/input' },
-                        { text: '数据呈现', link: '/linux/shell/data' },
-                        { text: '脚本控制', link: '/linux/shell/control' },
-                        { text: '函数创建', link: '/linux/shell/function' },
-                        { text: '文本处理', link: '/linux/shell/text' },
-                        { text: '正则表达式', link: '/linux/shell/reg' },
-                        { text: 'Sed高级用法', link: '/linux/shell/sed' },
-                        { text: 'Gawk高级用法', link: '/linux/shell/gawk' },
-                        { text: '应用示例', link: '/linux/shell/sample' }
+                        { text: '基础语法', link: '/linux/shell/01-basic' },
+                        { text: '结构化语法(上)', link: '/linux/shell/02-structure1' },
+                        { text: '结构化语法(下)', link: '/linux/shell/03-structure2' },
+                        { text: '输入处理', link: '/linux/shell/04-input' },
+                        { text: '数据呈现', link: '/linux/shell/05-data' },
+                        { text: '脚本控制', link: '/linux/shell/06-control' },
+                        { text: '函数创建', link: '/linux/shell/07-function' },
+                        { text: '文本处理', link: '/linux/shell/08-text' },
+                        { text: '正则表达式', link: '/linux/shell/09-reg' },
+                        { text: 'Sed高级用法', link: '/linux/shell/10-sed' },
+                        { text: 'Gawk高级用法', link: '/linux/shell/11-gawk' },
+                        { text: '应用示例', link: '/linux/shell/12-sample' }
                     ]
                 },
                 {
@@ -742,16 +768,16 @@ export default defineConfig({
                     collapsed: true,
 
                     items: [
-                        { text: 'CentOS', link: '/linux/instance/centos' },
-                        { text: 'Ubuntu', link: '/linux/instance/ubuntu' },
-                        { text: 'Debian', link: '/linux/instance/debian' },
-                        { text: '局域网唤醒', link: '/linux/instance/wol' },
-                        { text: 'WOL唤醒脚本', link: '/linux/instance/wolshell' },
-                        { text: '服务自启动', link: '/linux/instance/systemctl' },
-                        { text: '硬盘分区', link: '/linux/instance/partition' },
-                        { text: '逻辑卷管理', link: '/linux/instance/lvm' },
-                        { text: '文本过滤', link: '/linux/instance/filter' },
-                        { text: '密钥登录', link: '/linux/instance/keylogin' }
+                        { text: 'CentOS', link: '/linux/instance/01-centos' },
+                        { text: 'Ubuntu', link: '/linux/instance/02-ubuntu' },
+                        { text: 'Debian', link: '/linux/instance/03-debian' },
+                        { text: '局域网唤醒', link: '/linux/instance/04-wol' },
+                        { text: 'WOL唤醒脚本', link: '/linux/instance/05-wolshell' },
+                        { text: '服务自启动', link: '/linux/instance/06-systemctl' },
+                        { text: '硬盘分区', link: '/linux/instance/07-partition' },
+                        { text: '逻辑卷管理', link: '/linux/instance/08-lvm' },
+                        { text: '文本过滤', link: '/linux/instance/09-filter' },
+                        { text: '密钥登录', link: '/linux/instance/10-keylogin' }
                     ]
                 },
                 {
@@ -764,8 +790,8 @@ export default defineConfig({
                             collapsed: true,
 
                             items: [
-                                { text: '简介概览', link: '/linux/vm/multipass/multipass' },
-                                { text: '快速开始', link: '/linux/vm/multipass/multipassuse' }
+                                { text: '简介概览', link: '/linux/vm/multipass/01-multipass' },
+                                { text: '快速开始', link: '/linux/vm/multipass/02-multipassuse' }
                             ]
                         },
                         {
@@ -773,9 +799,9 @@ export default defineConfig({
                             collapsed: true,
 
                             items: [
-                                { text: '简介概览', link: '/linux/vm/wsl/wsl' },
-                                { text: '环境安装', link: '/linux/vm/wsl/wslinstall' },
-                                { text: '基本使用', link: '/linux/vm/wsl/wsluse' }
+                                { text: '简介概览', link: '/linux/vm/wsl/01-wsl' },
+                                { text: '环境安装', link: '/linux/vm/wsl/02-wslinstall' },
+                                { text: '基本使用', link: '/linux/vm/wsl/03-wsluse' }
                             ]
                         },
                         {
@@ -783,13 +809,13 @@ export default defineConfig({
                             collapsed: true,
 
                             items: [
-                                { text: '简介概览', link: '/linux/vm/proxmoxve/proxmoxve' },
-                                { text: '系统安装', link: '/linux/vm/proxmoxve/veinstall' },
-                                { text: '配置优化', link: '/linux/vm/proxmoxve/veoptimize' },
-                                { text: '系统管理', link: '/linux/vm/proxmoxve/vemanage' },
-                                { text: '虚机安装', link: '/linux/vm/proxmoxve/vminstall' },
-                                { text: '虚机管理', link: '/linux/vm/proxmoxve/vmmanage' },
-                                { text: '硬件直通', link: '/linux/vm/proxmoxve/pcie' }
+                                { text: '简介概览', link: '/linux/vm/proxmoxve/01-proxmoxve' },
+                                { text: '系统安装', link: '/linux/vm/proxmoxve/02-veinstall' },
+                                { text: '配置优化', link: '/linux/vm/proxmoxve/03-veoptimize' },
+                                { text: '系统管理', link: '/linux/vm/proxmoxve/04-vemanage' },
+                                { text: '虚机安装', link: '/linux/vm/proxmoxve/05-vminstall' },
+                                { text: '虚机管理', link: '/linux/vm/proxmoxve/06-vmmanage' },
+                                { text: '硬件直通', link: '/linux/vm/proxmoxve/07-pcie' }
                             ]
                         }
                     ]
@@ -806,31 +832,31 @@ export default defineConfig({
                     collapsed: true,
 
                     items: [
-                        { text: '简介概览', link: '/linux/management/kubernetes' },
-                        { text: '系统架构', link: '/linux/management/arch' },
-                        { text: 'Minikube', link: '/linux/management/minikube' },
-                        { text: 'K3s', link: '/linux/management/k3s' },
-                        { text: '集群搭建', link: '/linux/management/build' },
-                        { text: '管理工具', link: '/linux/management/kubectl' },
-                        { text: '资源编排', link: '/linux/management/layout' },
-                        { text: '命名空间', link: '/linux/management/namespace' },
-                        { text: 'Pod', link: '/linux/management/pod' },
-                        { text: '资源调度', link: '/linux/management/scheduler' },
-                        { text: '工作负载资源', link: '/linux/management/resource' },
-                        { text: 'ReplicaSet', link: '/linux/management/replicaset' },
-                        { text: 'Deployment', link: '/linux/management/deployment' },
-                        { text: 'HorizontalPodAutoscaler', link: '/linux/management/hpa' },
-                        { text: 'DaemonSet', link: '/linux/management/daemonset' },
-                        { text: 'Job', link: '/linux/management/job' },
-                        { text: 'CronJob', link: '/linux/management/cronjob' },
-                        { text: 'Service', link: '/linux/management/service' },
-                        { text: 'Ingress', link: '/linux/management/ingress' },
-                        { text: '临时存储', link: '/linux/management/ephemeral' },
-                        { text: '持久存储', link: '/linux/management/persistent' },
-                        { text: '配置存储', link: '/linux/management/configstorage' },
-                        { text: '安全认证', link: '/linux/management/security' },
-                        { text: 'Dashboard', link: '/linux/management/dashboard' },
-                        { text: 'Helm', link: '/linux/management/helm' }
+                        { text: '简介概览', link: '/linux/management/01-kubernetes' },
+                        { text: '系统架构', link: '/linux/management/02-arch' },
+                        { text: 'Minikube', link: '/linux/management/03-minikube' },
+                        { text: 'K3s', link: '/linux/management/04-k3s' },
+                        { text: '集群搭建', link: '/linux/management/05-build' },
+                        { text: '管理工具', link: '/linux/management/06-kubectl' },
+                        { text: '资源编排', link: '/linux/management/07-layout' },
+                        { text: '命名空间', link: '/linux/management/08-namespace' },
+                        { text: 'Pod', link: '/linux/management/09-pod' },
+                        { text: '资源调度', link: '/linux/management/10-scheduler' },
+                        { text: '工作负载资源', link: '/linux/management/11-resource' },
+                        { text: 'ReplicaSet', link: '/linux/management/12-replicaset' },
+                        { text: 'Deployment', link: '/linux/management/13-deployment' },
+                        { text: 'HorizontalPodAutoscaler', link: '/linux/management/14-hpa' },
+                        { text: 'DaemonSet', link: '/linux/management/15-daemonset' },
+                        { text: 'Job', link: '/linux/management/16-job' },
+                        { text: 'CronJob', link: '/linux/management/17-cronjob' },
+                        { text: 'Service', link: '/linux/management/18-service' },
+                        { text: 'Ingress', link: '/linux/management/19-ingress' },
+                        { text: '临时存储', link: '/linux/management/20-ephemeral' },
+                        { text: '持久存储', link: '/linux/management/21-persistent' },
+                        { text: '配置存储', link: '/linux/management/22-configstorage' },
+                        { text: '安全认证', link: '/linux/management/23-security' },
+                        { text: 'Dashboard', link: '/linux/management/24-dashboard' },
+                        { text: 'Helm', link: '/linux/management/25-helm' }
                     ]
                 },
                 {
@@ -843,13 +869,13 @@ export default defineConfig({
                             collapsed: true,
 
                             items: [
-                                { text: 'VPN', link: '/linux/nat/vpn' },
-                                { text: 'Shadowsocks', link: '/linux/nat/ss' },
-                                { text: 'Frp', link: '/linux/nat/frp' },
-                                { text: 'SoftEtherVPN', link: '/linux/nat/softether' },
-                                { text: 'Tailscale', link: '/linux/nat/tailscale' },
-                                { text: 'Headscale', link: '/linux/nat/headscale' },
-                                { text: 'Derper', link: '/linux/nat/derper' }
+                                { text: 'VPN', link: '/linux/nat/tools/01-vpn' },
+                                { text: 'Shadowsocks', link: '/linux/nat/tools/02-ss' },
+                                { text: 'Frp', link: '/linux/nat/tools/03-frp' },
+                                { text: 'SoftEtherVPN', link: '/linux/nat/tools/04-softether' },
+                                { text: 'Tailscale', link: '/linux/nat/tools/05-tailscale' },
+                                { text: 'Headscale', link: '/linux/nat/tools/06-headscale' },
+                                { text: 'Derper', link: '/linux/nat/tools/07-derper' }
                             ]
                         },
                         {
@@ -857,10 +883,10 @@ export default defineConfig({
                             collapsed: true,
 
                             items: [
-                                { text: 'NAT - 网络地址转换', link: '/linux/nat/nat' },
-                                { text: 'NAT 穿透是如何工作的：技术原理及企业级实践（Tailscale）', link: '/linux/nat/nat-traversal' },
-                                { text: '基于角色的访问控制（RBAC）：演进历史、设计理念及简洁实现（Tailscale）', link: '/linux/nat/tailscale-rbac' },
-                                { text: '家庭网络NAT优化', link: '/linux/nat/nat-optimize' }
+                                { text: 'NAT - 网络地址转换', link: '/linux/nat/nat-traversal/01-nat' },
+                                { text: 'NAT 穿透是如何工作的：技术原理及企业级实践（Tailscale）', link: '/linux/nat/nat-traversal/02-nat-traversal' },
+                                { text: '基于角色的访问控制（RBAC）：演进历史、设计理念及简洁实现（Tailscale）', link: '/linux/nat/nat-traversal/03-tailscale-rbac' },
+                                { text: '家庭网络NAT优化', link: '/linux/nat/nat-traversal/04-nat-optimize' }
                             ]
                         },
                         {
@@ -868,7 +894,7 @@ export default defineConfig({
                             collapsed: true,
 
                             items: [
-                                { text: 'SoftEther + Frp', link: '/linux/nat/softfrp' }
+                                { text: 'SoftEther + Frp', link: '/linux/nat/solutions/01-softfrp' }
                             ]
                         }
                     ]
@@ -883,8 +909,8 @@ export default defineConfig({
                             collapsed: true,
 
                             items: [
-                                { text: 'HomeAssistant', link: '/linux/nas/ha/ha' },
-                                { text: 'HACS', link: '/linux/nas/ha/hacs' }
+                                { text: 'HomeAssistant', link: '/linux/nas/ha/01-ha' },
+                                { text: 'HACS', link: '/linux/nas/ha/02-hacs' }
                             ]
                         },
                         {
@@ -892,8 +918,8 @@ export default defineConfig({
                             collapsed: true,
 
                             items: [
-                                { text: 'Vaultwarden', link: '/linux/nas/pwd/vaultwarden' },
-                                { text: 'VaultwardenBackup', link: '/linux/nas/pwd/vaultwarden-backup' }
+                                { text: 'Vaultwarden', link: '/linux/nas/pwd/01-vaultwarden' },
+                                { text: 'VaultwardenBackup', link: '/linux/nas/pwd/02-vaultwarden-backup' }
                             ]
                         },
                         {
@@ -901,8 +927,8 @@ export default defineConfig({
                             collapsed: true,
 
                             items: [
-                                { text: 'FTP', link: '/linux/nas/share/ftp' },
-                                { text: 'NFS', link: '/linux/nas/share/nfs' }
+                                { text: 'FTP', link: '/linux/nas/share/01-ftp' },
+                                { text: 'NFS', link: '/linux/nas/share/02-nfs' }
                             ]
                         },
                         {
@@ -910,9 +936,9 @@ export default defineConfig({
                             collapsed: true,
 
                             items: [
-                                { text: '基本概述', link: '/linux/nas/dnf/overview' },
-                                { text: '私服搭建', link: '/linux/nas/dnf/build' },
-                                { text: '网页GM搭建', link: '/linux/nas/dnf/gm' }
+                                { text: '基本概述', link: '/linux/nas/dnf/01-overview' },
+                                { text: '私服搭建', link: '/linux/nas/dnf/02-build' },
+                                { text: '网页GM搭建', link: '/linux/nas/dnf/03-gm' }
                             ]
                         }
                     ]
@@ -922,10 +948,10 @@ export default defineConfig({
                     collapsed: true,
 
                     items: [
-                        { text: 'Docker权限异常(Permission denied)', link: '/linux/issues/001' },
-                        { text: 'Centos启动网络服务异常', link: '/linux/issues/002' },
-                        { text: 'Ubuntu配置禁止密码登录无效', link: '/linux/issues/003' },
-                        { text: 'Linux Too many open files 报错', link: '/linux/issues/004' }
+                        { text: 'Docker权限异常(Permission denied)', link: '/linux/issues/01-001' },
+                        { text: 'Centos启动网络服务异常', link: '/linux/issues/02-002' },
+                        { text: 'Ubuntu配置禁止密码登录无效', link: '/linux/issues/03-003' },
+                        { text: 'Linux Too many open files 报错', link: '/linux/issues/04-004' }
                     ]
                 }
             ],
@@ -954,25 +980,25 @@ export default defineConfig({
                             collapsed: true,
 
                             items: [
-                                { text: '什么是以太坊', link: '/chain/eth/basic/introduce' },
-                                { text: '以太坊架构', link: '/chain/eth/basic/architecture' },
-                                { text: '什么是DApp', link: '/chain/eth/basic/dapp' },
-                                { text: '区块的定义', link: '/chain/eth/basic/block' },
-                                { text: '以太坊地址', link: '/chain/eth/basic/address' },
-                                { text: 'Nonce的作用', link: '/chain/eth/basic/nonce' },
-                                { text: 'Gas燃料费', link: '/chain/eth/basic/gas' },
-                                { text: '叔块', link: '/chain/eth/basic/uncle' },
-                                { text: '挖矿奖励', link: '/chain/eth/basic/award' },
-                                { text: '数据结构', link: '/chain/eth/basic/data' },
-                                { text: 'MPT树', link: '/chain/eth/basic/mpt' },
-                                { text: '账户模型', link: '/chain/eth/basic/accountmodle' },
-                                { text: 'Ghost协议', link: '/chain/eth/basic/ghost' },
-                                { text: 'Casper共识机制', link: '/chain/eth/basic/casper' },
-                                { text: '智能合约', link: '/chain/eth/basic/contract' },
-                                { text: '合约标准', link: '/chain/eth/basic/standard' },
-                                { text: '以太坊交易', link: '/chain/eth/basic/transction' },
-                                { text: '代币', link: '/chain/eth/basic/token' },
-                                { text: '以太坊零地址', link: '/chain/eth/basic/zero' }
+                                { text: '什么是以太坊', link: '/chain/eth/basic/01-introduce' },
+                                { text: '以太坊架构', link: '/chain/eth/basic/02-architecture' },
+                                { text: '什么是DApp', link: '/chain/eth/basic/03-dapp' },
+                                { text: '区块的定义', link: '/chain/eth/basic/04-block' },
+                                { text: '以太坊地址', link: '/chain/eth/basic/05-address' },
+                                { text: 'Nonce的作用', link: '/chain/eth/basic/06-nonce' },
+                                { text: 'Gas燃料费', link: '/chain/eth/basic/07-gas' },
+                                { text: '叔块', link: '/chain/eth/basic/08-uncle' },
+                                { text: '挖矿奖励', link: '/chain/eth/basic/09-award' },
+                                { text: '数据结构', link: '/chain/eth/basic/10-data' },
+                                { text: 'MPT树', link: '/chain/eth/basic/11-mpt' },
+                                { text: '账户模型', link: '/chain/eth/basic/12-accountmodle' },
+                                { text: 'Ghost协议', link: '/chain/eth/basic/13-ghost' },
+                                { text: 'Casper共识机制', link: '/chain/eth/basic/14-casper' },
+                                { text: '智能合约', link: '/chain/eth/basic/15-contract' },
+                                { text: '合约标准', link: '/chain/eth/basic/16-standard' },
+                                { text: '以太坊交易', link: '/chain/eth/basic/17-transction' },
+                                { text: '代币', link: '/chain/eth/basic/18-token' },
+                                { text: '以太坊零地址', link: '/chain/eth/basic/19-zero' }
                             ]
                         },
                         {
@@ -994,12 +1020,12 @@ export default defineConfig({
                             collapsed: true,
 
                             items: [
-                                { text: '基本介绍', link: '/chain/eosio/basic/introduce' },
-                                { text: '共识机制(BFT-DPoS)', link: '/chain/eosio/basic/bftdpos' },
-                                { text: '账户体系', link: '/chain/eosio/basic/account' },
-                                { text: '网络资源', link: '/chain/eosio/basic/netresource' },
-                                { text: '节点治理', link: '/chain/eosio/basic/governance' },
-                                { text: '脚本与虚拟机', link: '/chain/eosio/basic/vm' }
+                                { text: '基本介绍', link: '/chain/eosio/basic/01-introduce' },
+                                { text: '共识机制(BFT-DPoS)', link: '/chain/eosio/basic/02-bftdpos' },
+                                { text: '账户体系', link: '/chain/eosio/basic/03-account' },
+                                { text: '网络资源', link: '/chain/eosio/basic/04-netresource' },
+                                { text: '节点治理', link: '/chain/eosio/basic/05-governance' },
+                                { text: '脚本与虚拟机', link: '/chain/eosio/basic/06-vm' }
                             ]
                         },
                         {
@@ -1007,12 +1033,12 @@ export default defineConfig({
                             collapsed: true,
 
                             items: [
-                                { text: '快速开始', link: '/chain/eosio/operate/start' },
-                                { text: '源码编译', link: '/chain/eosio/operate/source' },
-                                { text: '多节点环境部署', link: '/chain/eosio/operate/multi' },
-                                { text: 'RPC接口上链', link: '/chain/eosio/operate/rpc' },
-                                { text: '账户体系', link: '/chain/eosio/operate/access' },
-                                { text: 'History-Tools', link: '/chain/eosio/operate/history' }
+                                { text: '快速开始', link: '/chain/eosio/operate/01-start' },
+                                { text: '源码编译', link: '/chain/eosio/operate/02-source' },
+                                { text: '多节点环境部署', link: '/chain/eosio/operate/03-multi' },
+                                { text: 'RPC接口上链', link: '/chain/eosio/operate/04-rpc' },
+                                { text: '账户体系', link: '/chain/eosio/operate/05-access' },
+                                { text: 'History-Tools', link: '/chain/eosio/operate/06-history' }
                             ]
                         }
                     ]
@@ -1027,22 +1053,22 @@ export default defineConfig({
                             collapsed: true,
 
                             items: [
-                                { text: '架构概览', link: '/chain/fabric/basic/architecture' },
-                                { text: '核心概念与组件', link: '/chain/fabric/basic/component' },
-                                { text: 'Raft共识算法', link: '/chain/fabric/basic/raft' },
-                                { text: '消息协议', link: '/chain/fabric/basic/message' },
-                                { text: '数据传播协议', link: '/chain/fabric/basic/gossip' },
-                                { text: '访问控制', link: '/chain/fabric/basic/access' },
-                                { text: '隐私保护', link: '/chain/fabric/basic/privacy' },
-                                { text: '读写集语义', link: '/chain/fabric/basic/semantics' },
-                                { text: '网络发现', link: '/chain/fabric/basic/discover' },
-                                { text: '管理链码', link: '/chain/fabric/basic/lifecycle' },
-                                { text: '读写集语义', link: '/chain/fabric/basic/semantics' },
-                                { text: '配置解析—组织身份文件', link: '/chain/fabric/basic/config1' },
-                                { text: '配置解析—通道配置文件', link: '/chain/fabric/basic/config2' },
-                                { text: '配置解析—Order配置文件', link: '/chain/fabric/basic/config3' },
-                                { text: '配置解析—Peer配置文件', link: '/chain/fabric/basic/config4' },
-                                { text: '链码开发', link: '/chain/fabric/basic/dev' }
+                                { text: '架构概览', link: '/chain/fabric/basic/01-architecture' },
+                                { text: '核心概念与组件', link: '/chain/fabric/basic/02-component' },
+                                { text: 'Raft共识算法', link: '/chain/fabric/basic/03-raft' },
+                                { text: '消息协议', link: '/chain/fabric/basic/04-message' },
+                                { text: '数据传播协议', link: '/chain/fabric/basic/05-gossip' },
+                                { text: '访问控制', link: '/chain/fabric/basic/06-access' },
+                                { text: '隐私保护', link: '/chain/fabric/basic/07-privacy' },
+                                { text: '读写集语义', link: '/chain/fabric/basic/08-semantics' },
+                                { text: '网络发现', link: '/chain/fabric/basic/09-discover' },
+                                { text: '管理链码', link: '/chain/fabric/basic/10-lifecycle' },
+                                { text: '读写集语义', link: '/chain/fabric/basic/08-semantics' },
+                                { text: '配置解析—组织身份文件', link: '/chain/fabric/basic/11-config1' },
+                                { text: '配置解析—通道配置文件', link: '/chain/fabric/basic/12-config2' },
+                                { text: '配置解析—Order配置文件', link: '/chain/fabric/basic/13-config3' },
+                                { text: '配置解析—Peer配置文件', link: '/chain/fabric/basic/14-config4' },
+                                { text: '链码开发', link: '/chain/fabric/basic/15-dev' }
                             ]
                         },
                         {
@@ -1050,16 +1076,16 @@ export default defineConfig({
                             collapsed: true,
 
                             items: [
-                                { text: 'Fabric 1.4.6 环境搭建', link: '/chain/fabric/operate/build1' },
-                                { text: 'Fabric 1.4.6 多机部署', link: '/chain/fabric/operate/multi1' },
-                                { text: 'Fabric 2.2.5 环境搭建', link: '/chain/fabric/operate/build2' },
-                                { text: 'Fabric 2.2.5 多机部署', link: '/chain/fabric/operate/multi2' },
-                                { text: 'Fabric 1.4.6 链码操作', link: '/chain/fabric/operate/chaincode1' },
-                                { text: 'Fabric 2.4.7 链码操作', link: '/chain/fabric/operate/chaincode2' },
-                                { text: '生产网络—生成身份文件', link: '/chain/fabric/operate/production1' },
-                                { text: '生产网络—部署 Orderer 节点', link: '/chain/fabric/operate/production2' },
-                                { text: '生产网络—部署 Peer 节点', link: '/chain/fabric/operate/production3' },
-                                { text: '生产网络—部署合约并调用', link: '/chain/fabric/operate/production4' }
+                                { text: 'Fabric 1.4.6 环境搭建', link: '/chain/fabric/operate/01-build1' },
+                                { text: 'Fabric 1.4.6 多机部署', link: '/chain/fabric/operate/02-multi1' },
+                                { text: 'Fabric 2.2.5 环境搭建', link: '/chain/fabric/operate/03-build2' },
+                                { text: 'Fabric 2.2.5 多机部署', link: '/chain/fabric/operate/04-multi2' },
+                                { text: 'Fabric 1.4.6 链码操作', link: '/chain/fabric/operate/05-chaincode1' },
+                                { text: 'Fabric 2.4.7 链码操作', link: '/chain/fabric/operate/06-chaincode2' },
+                                { text: '生产网络—生成身份文件', link: '/chain/fabric/operate/07-production1' },
+                                { text: '生产网络—部署 Orderer 节点', link: '/chain/fabric/operate/08-production2' },
+                                { text: '生产网络—部署 Peer 节点', link: '/chain/fabric/operate/09-production3' },
+                                { text: '生产网络—部署合约并调用', link: '/chain/fabric/operate/10-production4' }
                             ]
                         }
                     ]
@@ -1069,7 +1095,7 @@ export default defineConfig({
                     collapsed: true,
 
                     items: [
-                        { text: 'Hyperledger-Caliper', link: '/chain/other/caliper' }
+                        { text: 'Hyperledger-Caliper', link: '/chain/other/01-caliper' }
                     ]
                 }
             ],
@@ -1079,14 +1105,14 @@ export default defineConfig({
                     collapsed: true,
 
                     items: [
-                        { text: '基础概念', link: '/dev/git/basic' },
-                        { text: '常用操作', link: '/dev/git/opt' },
-                        { text: '操作文件', link: '/dev/git/file' },
-                        { text: '操作分支', link: '/dev/git/branch' },
-                        { text: '操作历史', link: '/dev/git/history' },
-                        { text: '远程版本库操作', link: '/dev/git/remote' },
-                        { text: '更多操作', link: '/dev/git/more' },
-                        { text: '应用示例', link: '/dev/git/instance' }
+                        { text: '基础概念', link: '/dev/git/01-basic' },
+                        { text: '常用操作', link: '/dev/git/02-opt' },
+                        { text: '操作文件', link: '/dev/git/03-file' },
+                        { text: '操作分支', link: '/dev/git/04-branch' },
+                        { text: '操作历史', link: '/dev/git/05-history' },
+                        { text: '远程版本库操作', link: '/dev/git/06-remote' },
+                        { text: '更多操作', link: '/dev/git/07-more' },
+                        { text: '应用示例', link: '/dev/git/08-instance' }
                     ]
                 },
                 {
@@ -1094,11 +1120,11 @@ export default defineConfig({
                     collapsed: true,
 
                     items: [
-                        { text: '环境搭建', link: '/dev/gitlab/envbuild' },
-                        { text: '备份恢复', link: '/dev/gitlab/backup' },
-                        { text: '版本升级', link: '/dev/gitlab/upgrade' },
-                        { text: '系统优化', link: '/dev/gitlab/set' },
-                        { text: '系统迁移升级问题', link: '/dev/gitlab/problem' }
+                        { text: '环境搭建', link: '/dev/gitlab/01-envbuild' },
+                        { text: '备份恢复', link: '/dev/gitlab/02-backup' },
+                        { text: '版本升级', link: '/dev/gitlab/03-upgrade' },
+                        { text: '系统优化', link: '/dev/gitlab/04-set' },
+                        { text: '系统迁移升级问题', link: '/dev/gitlab/05-problem' }
                     ]
                 },
                 {
@@ -1106,32 +1132,32 @@ export default defineConfig({
                     collapsed: true,
 
                     items: [
-                        { text: '基础概述', link: '/dev/mysql/basic' },
-                        { text: '数据定义语言', link: '/dev/mysql/ddl' },
-                        { text: '数据操作语言', link: '/dev/mysql/dml' },
-                        { text: '数据查询语言', link: '/dev/mysql/dql' },
-                        { text: '数据控制语言', link: '/dev/mysql/dcl' },
-                        { text: '常用函数', link: '/dev/mysql/function' },
-                        { text: '常用约束', link: '/dev/mysql/constraint' },
-                        { text: '多表查询', link: '/dev/mysql/multi' },
-                        { text: '事务操作', link: '/dev/mysql/transaction' },
-                        { text: '存储引擎', link: '/dev/mysql/engine' },
-                        { text: '索引概述', link: '/dev/mysql/indexes' },
-                        { text: '索引结构', link: '/dev/mysql/structure' },
-                        { text: '索引语法', link: '/dev/mysql/grammar' },
-                        { text: '索引失效', link: '/dev/mysql/invalid' },
-                        { text: '索引使用', link: '/dev/mysql/use' },
-                        { text: '性能分析', link: '/dev/mysql/profile' },
-                        { text: 'SQL优化', link: '/dev/mysql/sqloptimization' },
-                        { text: '视图', link: '/dev/mysql/view' },
-                        { text: '存储过程', link: '/dev/mysql/stored' },
-                        { text: '过程语法', link: '/dev/mysql/storedgrammar' },
-                        { text: '游标', link: '/dev/mysql/cursor' },
-                        { text: '存储函数', link: '/dev/mysql/storedfunction' },
-                        { text: '触发器', link: '/dev/mysql/trigger' },
-                        { text: '全局锁', link: '/dev/mysql/globallock' },
-                        { text: '表级锁', link: '/dev/mysql/tablelock' },
-                        { text: '行级锁', link: '/dev/mysql/linelock' }
+                        { text: '基础概述', link: '/dev/mysql/01-basic' },
+                        { text: '数据定义语言', link: '/dev/mysql/02-ddl' },
+                        { text: '数据操作语言', link: '/dev/mysql/03-dml' },
+                        { text: '数据查询语言', link: '/dev/mysql/04-dql' },
+                        { text: '数据控制语言', link: '/dev/mysql/05-dcl' },
+                        { text: '常用函数', link: '/dev/mysql/06-function' },
+                        { text: '常用约束', link: '/dev/mysql/07-constraint' },
+                        { text: '多表查询', link: '/dev/mysql/08-multi' },
+                        { text: '事务操作', link: '/dev/mysql/09-transaction' },
+                        { text: '存储引擎', link: '/dev/mysql/10-engine' },
+                        { text: '索引概述', link: '/dev/mysql/11-indexes' },
+                        { text: '索引结构', link: '/dev/mysql/12-structure' },
+                        { text: '索引语法', link: '/dev/mysql/13-grammar' },
+                        { text: '索引失效', link: '/dev/mysql/14-invalid' },
+                        { text: '索引使用', link: '/dev/mysql/15-use' },
+                        { text: '性能分析', link: '/dev/mysql/16-profile' },
+                        { text: 'SQL优化', link: '/dev/mysql/17-sqloptimization' },
+                        { text: '视图', link: '/dev/mysql/18-view' },
+                        { text: '存储过程', link: '/dev/mysql/19-stored' },
+                        { text: '过程语法', link: '/dev/mysql/20-storedgrammar' },
+                        { text: '游标', link: '/dev/mysql/21-cursor' },
+                        { text: '存储函数', link: '/dev/mysql/22-storedfunction' },
+                        { text: '触发器', link: '/dev/mysql/23-trigger' },
+                        { text: '全局锁', link: '/dev/mysql/24-globallock' },
+                        { text: '表级锁', link: '/dev/mysql/25-tablelock' },
+                        { text: '行级锁', link: '/dev/mysql/26-linelock' }
                     ]
                 },
                 {
@@ -1139,14 +1165,14 @@ export default defineConfig({
                     collapsed: true,
 
                     items: [
-                        { text: '简介概览', link: '/dev/kafka/basic' },
-                        { text: '环境搭建', link: '/dev/kafka/operate' },
-                        { text: '生产消息', link: '/dev/kafka/producer' },
-                        { text: '消息存储', link: '/dev/kafka/storage' },
-                        { text: '消息同步', link: '/dev/kafka/sync' },
-                        { text: '消费消息', link: '/dev/kafka/consumer' },
-                        { text: '核心机制', link: '/dev/kafka/core' },
-                        { text: '性能优化', link: '/dev/kafka/optimize' }
+                        { text: '简介概览', link: '/dev/kafka/01-basic' },
+                        { text: '环境搭建', link: '/dev/kafka/02-operate' },
+                        { text: '生产消息', link: '/dev/kafka/03-producer' },
+                        { text: '消息存储', link: '/dev/kafka/04-storage' },
+                        { text: '消息同步', link: '/dev/kafka/05-sync' },
+                        { text: '消费消息', link: '/dev/kafka/06-consumer' },
+                        { text: '核心机制', link: '/dev/kafka/07-core' },
+                        { text: '性能优化', link: '/dev/kafka/08-optimize' }
                     ]
                 }
             ]
