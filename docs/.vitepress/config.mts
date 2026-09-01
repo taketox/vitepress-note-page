@@ -68,6 +68,24 @@ export default defineConfig({
                 ]
             },
             {
+                text: 'Python',
+                items: [
+                    {
+                        // 该部分的标题
+                        text: '入门',
+                        items: [
+                            { text: '基础语法', link: '/python/basic/index' }
+                        ]
+                    },
+                    {
+                        // 该部分的标题
+                        text: '进阶',
+                        items: [
+                        ]
+                    }
+                ]
+            },
+            {
                 text: 'Go',
                 items: [
                     {
@@ -222,6 +240,9 @@ export default defineConfig({
         ],
         // 侧边栏配置
         sidebar: {
+            'ai': [
+                { text: '首页', link: '/' }
+            ],
             // 当用户位于 `java` 目录时，会显示此侧边栏
             '/java/': [
                 {
@@ -477,6 +498,15 @@ export default defineConfig({
                                 { text: 'Plugin', link: '/java/build/gradle/plugin' }
                             ]
                         },
+                    ]
+                }
+            ],
+            '/python/': [
+                {
+                    text: '基础语法',
+                    collapsed: true,
+
+                    items: [
                     ]
                 }
             ],
