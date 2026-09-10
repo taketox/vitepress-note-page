@@ -23,16 +23,25 @@ export default defineConfig({
                 items: [
                     {
                         // 该部分的标题
-                        text: '入门',
+                        text: '核心概念',
                         items: [
-                            { text: '概念', link: '/ai/basic/index' }
+                            { text: '模型基础', link: '/ai/basic/index' }
                         ]
                     },
                     {
                         // 该部分的标题
-                        text: '进阶',
+                        text: '框架生态',
                         items: [
-                            { text: '基础语法', link: '/ai/springai/index' }
+                            { text: 'LangChain', link: '/ai/langchain/index' },
+                            { text: 'LangGraph', link: '/ai/langgraph/index' },
+                            { text: 'SpringAI', link: '/ai/springai/index' }
+                        ]
+                    },
+                    {
+                        // 该部分的标题
+                        text: '工程实践',
+                        items: [
+                            { text: 'Vibecoding', link: '/ai/vibecoding/index' }
                         ]
                     }
                 ]
@@ -42,7 +51,7 @@ export default defineConfig({
                 items: [
                     {
                         // 该部分的标题
-                        text: '入门',
+                        text: '语言核心',
                         items: [
                             { text: '基础语法', link: '/java/basic/index' },
                             { text: '集合框架', link: '/java/container/index' },
@@ -54,13 +63,19 @@ export default defineConfig({
                     },
                     {
                         // 该部分的标题
-                        text: '进阶',
+                        text: '框架生态',
                         items: [
                             { text: 'Spring', link: '/java/spring/index' },
                             // { text: 'MyBatis', link: '/java/batis/index' },
                             { text: 'Cloud', link: '/java/cloud/index' },
                             { text: '日志框架', link: '/java/log/index' },
-                            { text: '认证授权', link: '/java/permission/index' },
+                            { text: '认证授权', link: '/java/permission/index' }
+                        ]
+                    },
+                    {
+                        // 该部分的标题
+                        text: '工程实践',
+                        items: [
                             { text: '分库分表', link: '/java/sharding/index' },
                             { text: '程序构建', link: '/java/build/index' }
                         ]
@@ -72,15 +87,9 @@ export default defineConfig({
                 items: [
                     {
                         // 该部分的标题
-                        text: '入门',
+                        text: '语言核心',
                         items: [
                             { text: '基础语法', link: '/python/basic/index' }
-                        ]
-                    },
-                    {
-                        // 该部分的标题
-                        text: '进阶',
-                        items: [
                         ]
                     }
                 ]
@@ -90,15 +99,9 @@ export default defineConfig({
                 items: [
                     {
                         // 该部分的标题
-                        text: '入门',
+                        text: '语言核心',
                         items: [
                             { text: '基础语法', link: '/go/basic/index' }
-                        ]
-                    },
-                    {
-                        // 该部分的标题
-                        text: '进阶',
-                        items: [
                         ]
                     }
                 ]
@@ -108,7 +111,7 @@ export default defineConfig({
                 items: [
                     {
                         // 该部分的标题
-                        text: '入门',
+                        text: '语言核心',
                         items: [
                             { text: '基础语法', link: '/nodejs/basic/index' },
                             { text: '模块机制', link: '/nodejs/moudle/index' },
@@ -118,7 +121,7 @@ export default defineConfig({
                     },
                     {
                         // 该部分的标题
-                        text: '进阶',
+                        text: '框架生态',
                         items: [
                             { text: 'Express', link: '/nodejs/express/index' }
                         ]
@@ -130,27 +133,27 @@ export default defineConfig({
                 items: [
                     {
                         // 该部分的标题
-                        text: 'HTML/CSS',
+                        text: '语言核心',
                         items: [
                             { text: 'HTML', link: '/page/html/index' },
-                            { text: 'CSS', link: '/page/css/index' }
-                        ]
-                    },
-                    {
-                        // 该部分的标题
-                        text: 'Javascript',
-                        items: [
+                            { text: 'CSS', link: '/page/css/index' },
                             { text: '基础语法', link: '/page/basic/index' },
                             { text: '深入理解', link: '/page/advance/index' },
-                            { text: '异步编程', link: '/page/async/index' },
-                            { text: '性能调优', link: '/page/perf/index' }
+                            { text: '异步编程', link: '/page/async/index' }
                         ]
                     },
                     {
                         // 该部分的标题
-                        text: 'Vue',
+                        text: '框架生态',
                         items: [
                             { text: 'Vue2', link: '/page/vue2/index' }
+                        ]
+                    },
+                    {
+                        // 该部分的标题
+                        text: '工程实践',
+                        items: [
+                            { text: '性能调优', link: '/page/perf/index' }
                         ]
                     }
                 ]
@@ -160,7 +163,7 @@ export default defineConfig({
                 items: [
                     {
                         // 该部分的标题
-                        text: '入门',
+                        text: '命令基础',
                         items: [
                             { text: 'Bash命令', link: '/linux/bash/index' },
                             { text: 'Shell脚本', link: '/linux/shell/index' }
@@ -168,19 +171,25 @@ export default defineConfig({
                     },
                     {
                         // 该部分的标题
-                        text: '进阶',
+                        text: '平台生态',
                         items: [
-                            { text: '应用实例', link: '/linux/instance/index' },
                             { text: '虚机平台', link: '/linux/vm/index' },
                             { text: '容器技术', link: '/linux/container/index' },
-                            { text: '容器编排', link: '/linux/management/index' },
+                            { text: '容器编排', link: '/linux/management/index' }
+                        ]
+                    },
+                    {
+                        // 该部分的标题
+                        text: '运维实践',
+                        items: [
+                            { text: '应用实例', link: '/linux/instance/index' },
                             { text: '异地组网', link: '/linux/nat/index' },
                             { text: '智能家居', link: '/linux/nas/index' }
                         ]
                     },
                     {
                         // 该部分的标题
-                        text: '其他',
+                        text: '排错速查',
                         items: [
                             { text: '问题总结', link: '/linux/issues/index' }
                         ]
@@ -192,7 +201,7 @@ export default defineConfig({
                 items: [
                     {
                         // 该部分的标题
-                        text: '入门',
+                        text: '原理基础',
                         items: [
                             { text: '区块链基础', link: '/chain/basic/index' },
                             { text: '共识算法', link: '/chain/consensus/index' }
@@ -200,7 +209,7 @@ export default defineConfig({
                     },
                     {
                         // 该部分的标题
-                        text: '进阶',
+                        text: '平台生态',
                         items: [
                             { text: 'Ethereum', link: '/chain/eth/index' },
                             { text: 'Eosio', link: '/chain/eosio/index' },
@@ -209,7 +218,7 @@ export default defineConfig({
                     },
                     {
                         // 该部分的标题
-                        text: '其他',
+                        text: '工具链',
                         items: [
                             { text: 'Caliper', link: '/chain/other/index' }
                         ]
@@ -252,8 +261,70 @@ export default defineConfig({
         ],
         // 侧边栏配置
         sidebar: {
-            'ai': [
-                { text: '首页', link: '/' }
+            '/ai/': [
+                {
+                    text: 'Vibecoding',
+                    collapsed: true,
+
+                    items: [
+                        { text: '课程介绍与环境准备', link: '/ai/vibecoding/00-课程介绍与环境准备' },
+                        { text: 'AI编程基础理论', link: '/ai/vibecoding/01-AI编程基础理论' },
+                        { text: 'AI编程工具生态', link: '/ai/vibecoding/02-AI编程工具生态' },
+                        { text: 'ClaudeCode深度使用与进阶技巧', link: '/ai/vibecoding/03-ClaudeCode深度使用与进阶技巧' },
+                        { text: 'AI技能系统Skills', link: '/ai/vibecoding/04-AI技能系统Skills' },
+                        { text: '完整项目案例实操', link: '/ai/vibecoding/05-完整项目案例实操' },
+                        { text: '项目实战独立完成', link: '/ai/vibecoding/06-项目实战独立完成' },
+                        { text: 'CodexDesktop', link: '/ai/vibecoding/07-CodexDesktop' },
+                        { text: '附录', link: '/ai/vibecoding/08-附录' }
+                    ]
+                },
+                {
+                    text: 'LangChain',
+                    collapsed: true,
+
+                    items: [
+                        { text: 'LangChain概述', link: '/ai/langchain/01-LangChain概述' },
+                        { text: '模型的创建与调用', link: '/ai/langchain/02-模型的创建与调用' },
+                        { text: 'LangSmith的使用', link: '/ai/langchain/03-LangSmith的使用' },
+                        { text: 'Message与提示词模板', link: '/ai/langchain/04-Message与提示词模板' },
+                        { text: 'Tools', link: '/ai/langchain/05-Tools' },
+                        { text: '结构化输出', link: '/ai/langchain/06-结构化输出' },
+                        { text: '智能体', link: '/ai/langchain/07-智能体' },
+                        { text: '中间件', link: '/ai/langchain/08-中间件' },
+                        { text: '上下文与记忆', link: '/ai/langchain/09-上下文与记忆' },
+                        { text: 'RAG', link: '/ai/langchain/10-RAG' }
+                    ]
+                },
+                {
+                    text: 'LangGraph',
+                    collapsed: true,
+
+                    items: [
+                        { text: '环境配置', link: '/ai/langgraph/00-环境配置' },
+                        { text: 'LangGraph基础入门', link: '/ai/langgraph/01-LangGraph基础入门' },
+                        { text: 'LangGraph控制流与节点执行', link: '/ai/langgraph/02-LangGraph控制流与节点执行' },
+                        { text: 'LangGraph持久化与记忆管理', link: '/ai/langgraph/03-LangGraph持久化与记忆管理' },
+                        { text: 'LangGraph中断与工具与部署', link: '/ai/langgraph/04-LangGraph中断与工具与部署' },
+                        { text: 'LangGraph高级特性', link: '/ai/langgraph/05-LangGraph高级特性' }
+                    ]
+                },
+                {
+                    text: 'SpringAI',
+                    collapsed: true,
+
+                    items: [
+                        { text: 'Spring AI介绍', link: '/ai/springai/01-introduce' },
+                        { text: 'Models 模型', link: '/ai/springai/02-models' }
+                    ]
+                },
+                {
+                    text: '概念',
+                    collapsed: true,
+
+                    items: [
+                        { text: 'AI 概念', link: '/ai/basic/01-concepts' }
+                    ]
+                }
             ],
             // 当用户位于 `java` 目录时，会显示此侧边栏
             '/java/': [
@@ -1091,7 +1162,7 @@ export default defineConfig({
                     ]
                 },
                 {
-                    text: '其他',
+                    text: '工具链',
                     collapsed: true,
 
                     items: [
