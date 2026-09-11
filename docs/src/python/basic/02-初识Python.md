@@ -1,4 +1,4 @@
-# 第 2 章 初识 Python
+# 初识 Python
 ## Python 概述
 ### Python 的起源
 
