@@ -4,7 +4,7 @@ prev: false
 next: false
 ---  
 
-# Vibecoding（AI 编程实战）
+# Vibecoding
 
 <div class="chapter-list" markdown="1">
 
